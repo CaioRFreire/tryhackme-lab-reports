@@ -18,7 +18,7 @@ A company called PicoSecure has decided to conduct a threat simulation and detec
 
 # 3. Walkthrough
 
-All of the malwares were sent by the tester.
+All of the malware were sent by the tester.
 
 ## First Malware - (sample1.exe)
 

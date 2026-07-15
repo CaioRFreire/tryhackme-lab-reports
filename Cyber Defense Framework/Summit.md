@@ -25,7 +25,7 @@ All of the malware were sent by the tester.
 For the first malware, I started analyzing it using a Malware Sandbox.
 
 <p align="center">
-  <img src="Images/MalwareSandbox1.png" width="800">
+  <img src="Images/MalwareSandbox1.png" width="700">
 </p>
 <p align="center">
   <em>Figure 1 – Analyzing sample1.exe using the Malware Sandbox tab.</em>
@@ -34,7 +34,7 @@ For the first malware, I started analyzing it using a Malware Sandbox.
 To prevent this malware from executing on the system, I had to block it based on its malware's unique hash value, I have selected the SHA256 hash and used the Manage Hashes tab to add it to the PicoSecure's EDR Hash blocklist.
 
 <p align="center">
-  <img src="Images/ManageHashes.png" width="800">
+  <img src="Images/ManageHashes.png" width="700">
 </p>
 <p align="center">
   <em>Figure 2 – Adding the malware unique hash value to the Hash blocklist.</em>

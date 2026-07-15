@@ -20,7 +20,7 @@ A company called PicoSecure has decided to conduct a threat simulation and detec
 
 All of the malware were sent by the tester.
 
-## First Malware - (sample1.exe)
+## 3.1. First Malware - (sample1.exe)
 
 For the first malware, I started analyzing it using a Malware Sandbox.
 
@@ -44,7 +44,7 @@ Once done, the EDR will automatically block the malware from running on the syst
 
 Since malware can be easily redesigned to bypass hash blocklist, the tester recompiled it and sent me the sample2.exe.
 
-## Second Malware - (sample2.exe)
+## 3.2. Second Malware - (sample2.exe)
 
 After analyzing the second malware using the Malware Sandbox, it provided me the IP address, 154.35.10.113, to which the malware sample was connected, and the ASN, Intrabuzz Hosting Limited, which its name is quite suspicious.
 
@@ -68,7 +68,7 @@ Blocking by the IP addresses increase the attacker's effort more than blocking b
 
 Now that the malware is running from a different IP addresses, I needed to create a new plan to block the next malware, sample3.exe.
 
-## Third Malware - (sample3.exe)
+## 3.3. Third Malware - (sample3.exe)
 
 Uploading the third malware to the MalwareSandbox, a new IoC has been detected, the tester's domain, emudyn.bresonics.info, in which was being used to send the malware.
 
@@ -90,7 +90,7 @@ To block the malware, I added it to the DNS Rule Manager, this will deny any con
 
 Blocking the malware's hash, IP addresses and DNS will cause more trouble to the hacker. However, the tester has registered new domain names and sent me the next malware, sample4.exe.
 
-## Fourth Malware - (sample4.exe)
+## 3.4. Fourth Malware - (sample4.exe)
 
 This time the tester has used an advanced approach. To bypass Windows Defender, he has embedded a registry command to automatically disable real-time monitoring of the Windows Defender.
 
@@ -110,7 +110,7 @@ With that in mind, I needed to use the Sigma Rule Builder tool to create a sigma
   <em>Figure 8 – Adding malware domain in the DNS Rule Manager.</em>
 </p>
 
-## Fifth Malware - (sample5.exe)
+## 3.5. Fifth Malware - (sample5.exe)
 
 For the fifth malware, the tester sent me a log of the outgoing connections from the last 12 hours.
 
@@ -130,7 +130,7 @@ After Analyzin the log, I realized a pattern, where every 30 minutes, a 97 bytes
   <em>Figure 10 – Building sigma rule for the sample5.exe.</em>
 </p>
 
-## Sixth Malware
+## 3.6. Sixth Malware
 
 For the final Malware, the tester has sent me a log containing the actions that he usually perform after gaining remote access.
 

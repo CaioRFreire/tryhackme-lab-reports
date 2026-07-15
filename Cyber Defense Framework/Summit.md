@@ -107,7 +107,7 @@ With that in mind, I needed to use the Sigma Rule Builder tool to create a sigma
   <img src="Images/RegistryModifications.png" width="700">
 </p>
 <p align="center">
-  <em>Figure 8 – Adding malware domain in the DNS Rule Manager.</em>
+  <em>Figure 8 – Building sigma rule for the sample4.exe.</em>
 </p>
 
 ## 3.5. Fifth Malware - (sample5.exe)
@@ -147,7 +147,7 @@ The log shows commands like dir, netstat, ipconfig, which are commands used by t
   <img src="Images/ProcessCreation.png" width="700">
 </p>
 <p align="center">
-  <em>Figure 12 – Building sigma rule for the sample6.exe.</em>
+  <em>Figure 12 – Building sigma rule for the last malware.</em>
 </p>
 
 This was the last malware to detect and prevent, at this time, the hacker would spend a lot of time to probably look for another approach of attacking the company.
